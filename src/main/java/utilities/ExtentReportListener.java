@@ -32,7 +32,7 @@ public class ExtentReportListener implements ITestListener{
 		extent.attachReporter(spark);
 		
 		extent.setSystemInfo("OS","Windows");
-		extent.setSystemInfo("QA","Visva");
+		extent.setSystemInfo("QA","Visvanathan");
 		
 	}
 	
