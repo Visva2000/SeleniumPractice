@@ -1,0 +1,15 @@
+<suite name="OpenCart" parallel="none">
+	<listeners>
+		<listener class-name="utilities.ExtentReportListener" />
+	</listeners>
+	<parameter name='os' value='windows' />
+	<parameter name='browser' value='chrome' />
+	<test name="IFrames">
+		<classes>
+			<class name="testclasses.HomePageTestClass" />
+			<class name="testclasses.RegisterPageTestClass" />
+			<!--<class name="testclasses.IFramePractiseTestClass"/> -->
+			<!--<class name="testclasses.TablesPageTestClass"/> -->
+		</classes>
+	</test>
+</suite>
