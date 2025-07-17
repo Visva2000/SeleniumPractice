@@ -15,6 +15,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -22,6 +23,7 @@ public class BaseClass {
 
 	public static WebDriver driver;
 	public static WebDriverWait wait;
+	public ChromeOptions opt;
 
 	@BeforeClass
 	@Parameters({ "os", "browser" })
@@ -31,7 +33,12 @@ public class BaseClass {
 			switch (br.toLowerCase()) {
 			case "chrome":
 				WebDriverManager.chromedriver().setup();
-				driver = new ChromeDriver();
+				opt = new ChromeOptions();
+//				opt.addArguments("--headless");
+//				opt.addArguments("--start-maximized");
+				opt.addArguments("--window-size=1920,1080"); // use for HeadLess Mode testing
+				opt.addArguments("--remote-allow-origins=*");
+				driver = new ChromeDriver(opt);
 				break;
 			case "firefox":
 				WebDriverManager.firefoxdriver().setup();
@@ -44,7 +51,7 @@ public class BaseClass {
 			default:
 				Log.info("Invalid Browser");
 			}
-			driver.manage().window().maximize();
+//			driver.manage().window().maximize();
 			if(ConfigReader.getConfigData("url")==null) {
 				Log.info("No URL in Config File");
 			}
