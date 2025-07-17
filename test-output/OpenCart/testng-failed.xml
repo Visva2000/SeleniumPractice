@@ -8,14 +8,13 @@
   </listeners>
   <test thread-count="5" name="RegisterTest(failed)">
     <classes>
-      <class name="testclasses.RegisterPageTestClass">
+      <class name="testclasses.TablesPageTestClass">
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="TestFail"/>
-          <include name="TestSkip"/>
+          <include name="TableTest"/>
         </methods>
-      </class> <!-- testclasses.RegisterPageTestClass -->
+      </class> <!-- testclasses.TablesPageTestClass -->
     </classes>
   </test> <!-- RegisterTest(failed) -->
 </suite> <!-- Failed suite [OpenCart] -->

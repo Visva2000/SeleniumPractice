@@ -6,10 +6,10 @@
 	<parameter name='browser' value='chrome' />
 	<test name="RegisterTest">
 		<classes>
-			<class name="testclasses.HomePageTestClass" />
-			<class name="testclasses.RegisterPageTestClass" />
+			<!--<class name="testclasses.HomePageTestClass" />
+			<class name="testclasses.RegisterPageTestClass" />-->
 			<!--<class name="testclasses.IFramePractiseTestClass"/> -->
-			<!--<class name="testclasses.TablesPageTestClass"/> -->
+			<class name="testclasses.TablesPageTestClass"/> 
 			<!-- <class name="testclasses.BrokenLinkTest"/>-->
 		</classes>
 	</test>
