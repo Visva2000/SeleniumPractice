@@ -2,12 +2,12 @@
 <testng-results retried="3" ignored="1" total="8" passed="2" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-17T08:28:10 IST" name="OpenCart" finished-at="2025-07-17T08:28:16 IST" duration-ms="5904">
+  <suite started-at="2025-07-17T15:50:40 IST" name="OpenCart" finished-at="2025-07-17T15:50:46 IST" duration-ms="5908">
     <groups>
     </groups>
-    <test started-at="2025-07-17T08:28:10 IST" name="RegisterTest" finished-at="2025-07-17T08:28:16 IST" duration-ms="5904">
+    <test started-at="2025-07-17T15:50:40 IST" name="RegisterTest" finished-at="2025-07-17T15:50:46 IST" duration-ms="5908">
       <class name="testclasses.RegisterPageTestClass">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T08:28:13 IST" name="setup" finished-at="2025-07-17T08:28:13 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T15:50:44 IST" name="setup" finished-at="2025-07-17T15:50:44 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="RegisterPageTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T08:28:14 IST" name="RegisterPageTest" data-provider="ExcelDatas" finished-at="2025-07-17T08:28:15 IST" duration-ms="1376" status="PASS">
+        <test-method signature="RegisterPageTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T15:50:45 IST" name="RegisterPageTest" data-provider="ExcelDatas" finished-at="2025-07-17T15:50:46 IST" duration-ms="1313" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterPageTest -->
-        <test-method retried="true" signature="TestFail()[pri:1, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T08:28:15 IST" name="TestFail" finished-at="2025-07-17T08:28:15 IST" duration-ms="3" status="SKIP">
+        <test-method retried="true" signature="TestFail()[pri:1, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T15:50:46 IST" name="TestFail" finished-at="2025-07-17T15:50:46 IST" duration-ms="3" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failed expected [true] but found [false]]]>
@@ -104,7 +104,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestFail -->
-        <test-method retried="true" signature="TestFail()[pri:1, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T08:28:15 IST" name="TestFail" finished-at="2025-07-17T08:28:15 IST" duration-ms="2" status="SKIP">
+        <test-method retried="true" signature="TestFail()[pri:1, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T15:50:46 IST" name="TestFail" finished-at="2025-07-17T15:50:46 IST" duration-ms="1" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failed expected [true] but found [false]]]>
@@ -149,7 +149,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestFail -->
-        <test-method retried="true" signature="TestFail()[pri:1, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T08:28:15 IST" name="TestFail" finished-at="2025-07-17T08:28:15 IST" duration-ms="1" status="SKIP">
+        <test-method retried="true" signature="TestFail()[pri:1, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T15:50:46 IST" name="TestFail" finished-at="2025-07-17T15:50:46 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failed expected [true] but found [false]]]>
@@ -194,7 +194,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestFail -->
-        <test-method signature="TestFail()[pri:1, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T08:28:15 IST" name="TestFail" finished-at="2025-07-17T08:28:15 IST" duration-ms="2" status="FAIL">
+        <test-method signature="TestFail()[pri:1, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T15:50:46 IST" name="TestFail" finished-at="2025-07-17T15:50:46 IST" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failed expected [true] but found [false]]]>
@@ -239,7 +239,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestFail -->
-        <test-method signature="TestSkip()[pri:2, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T08:28:16 IST" name="TestSkip" finished-at="2025-07-17T08:28:16 IST" depends-on-methods="testclasses.RegisterPageTestClass.TestFail" duration-ms="0" status="SKIP">
+        <test-method signature="TestSkip()[pri:2, instance:testclasses.RegisterPageTestClass@3ce1e309]" started-at="2025-07-17T15:50:46 IST" name="TestSkip" finished-at="2025-07-17T15:50:46 IST" depends-on-methods="testclasses.RegisterPageTestClass.TestFail" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method RegisterPageTestClass.TestSkip()[pri:2, instance:testclasses.RegisterPageTestClass@3ce1e309] depends on not successfully finished methods]]>
@@ -273,7 +273,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- TestSkip -->
       </class> <!-- testclasses.RegisterPageTestClass -->
       <class name="testclasses.HomePageTestClass">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testclasses.HomePageTestClass@62150f9e]" started-at="2025-07-17T08:28:10 IST" name="setup" finished-at="2025-07-17T08:28:13 IST" duration-ms="3049" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testclasses.HomePageTestClass@62150f9e]" started-at="2025-07-17T15:50:40 IST" name="setup" finished-at="2025-07-17T15:50:44 IST" duration-ms="3127" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -289,11 +289,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="MyAccountTest()[pri:0, instance:testclasses.HomePageTestClass@62150f9e]" started-at="2025-07-17T08:28:13 IST" name="MyAccountTest" finished-at="2025-07-17T08:28:13 IST" duration-ms="493" status="PASS">
+        <test-method signature="MyAccountTest()[pri:0, instance:testclasses.HomePageTestClass@62150f9e]" started-at="2025-07-17T15:50:44 IST" name="MyAccountTest" finished-at="2025-07-17T15:50:44 IST" duration-ms="595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MyAccountTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testclasses.HomePageTestClass@62150f9e]" started-at="2025-07-17T08:28:16 IST" name="teardown" finished-at="2025-07-17T08:28:16 IST" duration-ms="416" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testclasses.HomePageTestClass@62150f9e]" started-at="2025-07-17T15:50:46 IST" name="teardown" finished-at="2025-07-17T15:50:47 IST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
