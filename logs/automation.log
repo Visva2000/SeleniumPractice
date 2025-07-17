@@ -68,3 +68,27 @@
 2025-07-16 07:34:59 [main] INFO  base.BaseClass - Execution Starts
 2025-07-16 07:35:45 [main] INFO  pages.RegisterPage - Privacy Policy
 2025-07-16 07:35:56 [main] INFO  base.BaseClass - Execution Completed
+2025-07-16 21:04:40 [main] INFO  base.BaseClass - Execution Starts
+2025-07-16 21:04:55 [main] INFO  pages.RegisterPage - Privacy Policy
+2025-07-16 21:05:06 [main] INFO  base.BaseClass - Execution Completed
+2025-07-17 07:28:26 [main] INFO  base.BaseClass - Execution Starts
+2025-07-17 07:28:39 [main] INFO  utilities.BrokenLinkCheck - Error Message : Cannot invoke "String.length()" because "spec" is null
+2025-07-17 07:28:40 [main] INFO  utilities.BrokenLinkCheck - https://demoqa.com/ COnnection Success, Code = 200
+2025-07-17 07:28:40 [main] INFO  utilities.BrokenLinkCheck - http://demoqa.com/ COnnection Success, Code = 301
+2025-07-17 07:28:40 [main] INFO  utilities.BrokenLinkCheck - http://the-internet.herokuapp.com/status_codes/500 COnnection Failed, Code = 500
+2025-07-17 07:28:41 [main] INFO  utilities.BrokenLinkCheck - Error Message : Cannot invoke "String.length()" because "spec" is null
+2025-07-17 07:28:41 [main] INFO  base.BaseClass - Execution Completed
+2025-07-17 07:30:07 [main] INFO  base.BaseClass - Execution Starts
+2025-07-17 07:30:20 [main] INFO  utilities.BrokenLinkCheck - Error Message : Cannot invoke "String.length()" because "spec" is null
+2025-07-17 07:30:21 [main] INFO  utilities.BrokenLinkCheck - https://demoqa.com/ Connection Success, Code = 200
+2025-07-17 07:30:22 [main] INFO  utilities.BrokenLinkCheck - http://demoqa.com/ Connection Success, Code = 301
+2025-07-17 07:30:22 [main] INFO  utilities.BrokenLinkCheck - http://the-internet.herokuapp.com/status_codes/500 Connection Failed, Code = 500
+2025-07-17 07:30:22 [main] INFO  utilities.BrokenLinkCheck - Error Message : Cannot invoke "String.length()" because "spec" is null
+2025-07-17 07:30:23 [main] INFO  base.BaseClass - Execution Completed
+2025-07-17 07:35:44 [main] INFO  base.BaseClass - Execution Starts
+2025-07-17 07:35:53 [main] INFO  utilities.BrokenLinkCheck - Empty Link
+2025-07-17 07:35:54 [main] INFO  utilities.BrokenLinkCheck - https://demoqa.com/ Connection Success, Code = 200
+2025-07-17 07:35:54 [main] INFO  utilities.BrokenLinkCheck - http://demoqa.com/ Connection Success, Code = 301
+2025-07-17 07:35:55 [main] INFO  utilities.BrokenLinkCheck - http://the-internet.herokuapp.com/status_codes/500 Connection Failed, Code = 500
+2025-07-17 07:35:55 [main] INFO  utilities.BrokenLinkCheck - Empty Link
+2025-07-17 07:35:55 [main] INFO  base.BaseClass - Execution Completed

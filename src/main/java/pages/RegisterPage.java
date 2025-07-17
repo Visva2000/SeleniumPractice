@@ -89,9 +89,9 @@ public class RegisterPage {
 	
 	public void PrivacyPolicy() throws InterruptedException {
 		wait.until(ExpectedConditions.elementToBeClickable(PrivacyPolicy)).click();
-		Thread.sleep(Duration.ofSeconds(10));
+		
 		Log.info(PrivacyPolicy_h4.getText());
-		Thread.sleep(Duration.ofSeconds(10));
+		
 		wait.until(ExpectedConditions.elementToBeClickable(closeBtn)).click();;
 	}
 	///////////////////////////////////////////////////////////////////////////////////

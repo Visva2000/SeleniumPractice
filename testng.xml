@@ -4,12 +4,13 @@
 	</listeners>
 	<parameter name='os' value='windows' />
 	<parameter name='browser' value='chrome' />
-	<test name="IFrames">
+	<test name="BrokenLinks">
 		<classes>
-			<class name="testclasses.HomePageTestClass" />
-			<class name="testclasses.RegisterPageTestClass" />
+			<!--<class name="testclasses.HomePageTestClass" />-->
+			<!--<class name="testclasses.RegisterPageTestClass" />-->
 			<!--<class name="testclasses.IFramePractiseTestClass"/> -->
 			<!--<class name="testclasses.TablesPageTestClass"/> -->
+			<class name="testclasses.BrokenLinkTest"/>
 		</classes>
 	</test>
 </suite>
