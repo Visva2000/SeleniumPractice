@@ -4,7 +4,7 @@
 	</listeners>
 	<parameter name='os' value='windows' />
 	<parameter name='browser' value='chrome' />
-	<test name="BrokenLinks">
+	<test name="RegisterTest">
 		<classes>
 			<class name="testclasses.HomePageTestClass" />
 			<class name="testclasses.RegisterPageTestClass" />
