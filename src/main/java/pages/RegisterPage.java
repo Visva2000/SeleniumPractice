@@ -58,7 +58,7 @@ public class RegisterPage {
 	@FindBy(linkText = "Privacy Policy")
 	WebElement PrivacyPolicy;
 	
-	@FindBy(xpath="//h4[text()='Privacy Policy']")
+	@FindBy(xpath="//h4[contains(text(),'Privacy Policy')]")
 	WebElement PrivacyPolicy_h4;
 	
 	//button[text()='×']
@@ -89,7 +89,8 @@ public class RegisterPage {
 	
 	public void PrivacyPolicy() throws InterruptedException {
 		wait.until(ExpectedConditions.elementToBeClickable(PrivacyPolicy)).click();
-		
+		wait.until(ExpectedConditions.visibilityOf(PrivacyPolicy_h4)); 
+
 		Log.info(PrivacyPolicy_h4.getText());
 		
 		wait.until(ExpectedConditions.elementToBeClickable(closeBtn)).click();;

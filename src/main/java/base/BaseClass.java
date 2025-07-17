@@ -45,12 +45,12 @@ public class BaseClass {
 				Log.info("Invalid Browser");
 			}
 			driver.manage().window().maximize();
-//			if(ConfigReader.getConfigData("url")==null) {
-//				Log.info("No URL in Config File");
-//			}
-//			else {
-//				driver.get(ConfigReader.getConfigData("url"));
-//			}
+			if(ConfigReader.getConfigData("url")==null) {
+				Log.info("No URL in Config File");
+			}
+			else {
+				driver.get(ConfigReader.getConfigData("url"));
+			}
 //			driver.get("https://tutorialsninja.com/demo/");
 //			driver.get("https://the-internet.herokuapp.com/iframe");
 //			driver.get("https://www.techlistic.com/p/demo-selenium-practice.html");
