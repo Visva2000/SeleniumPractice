@@ -6,7 +6,7 @@
   <listeners>
     <listener class-name="utilities.ExtentReportListener"/>
   </listeners>
-  <test thread-count="5" name="BrokenLinks(failed)">
+  <test thread-count="5" name="RegisterTest(failed)">
     <classes>
       <class name="testclasses.RegisterPageTestClass">
         <methods>
@@ -17,5 +17,5 @@
         </methods>
       </class> <!-- testclasses.RegisterPageTestClass -->
     </classes>
-  </test> <!-- BrokenLinks(failed) -->
+  </test> <!-- RegisterTest(failed) -->
 </suite> <!-- Failed suite [OpenCart] -->

@@ -97,3 +97,6 @@
 2025-07-17 08:12:01 [main] INFO  base.BaseClass - Execution Starts
 2025-07-17 08:12:06 [main] INFO  pages.RegisterPage - Privacy Policy
 2025-07-17 08:12:07 [main] INFO  base.BaseClass - Execution Completed
+2025-07-17 08:28:10 [main] INFO  base.BaseClass - Execution Starts
+2025-07-17 08:28:15 [main] INFO  pages.RegisterPage - Privacy Policy
+2025-07-17 08:28:16 [main] INFO  base.BaseClass - Execution Completed
