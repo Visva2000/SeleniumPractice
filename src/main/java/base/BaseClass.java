@@ -26,17 +26,17 @@ public class BaseClass {
 	public ChromeOptions opt;
 
 	@BeforeClass
-	@Parameters({ "os", "browser" })
-	public void setup(String os, String br) {
+	@Parameters({"browser","urlDetails" })
+	public void setup(String os, String br,String url) {
 		if (driver == null) {
 			Log.info("Execution Starts");
 			switch (br.toLowerCase()) {
 			case "chrome":
 				WebDriverManager.chromedriver().setup();
 				opt = new ChromeOptions();
-				opt.addArguments("--headless");
-//				opt.addArguments("--start-maximized");
-				opt.addArguments("--window-size=1920,1080"); // use for HeadLess Mode testing
+//				opt.addArguments("--headless");
+				opt.addArguments("--start-maximized");
+//				opt.addArguments("--window-size=1920,1080"); // use for HeadLess Mode testing
 				driver = new ChromeDriver(opt);
 				break;
 			case "firefox":
@@ -51,25 +51,25 @@ public class BaseClass {
 				Log.info("Invalid Browser");
 			}
 //			driver.manage().window().maximize();
-//			if(ConfigReader.getConfigData("url")==null) {
-//				Log.info("No URL in Config File");
-//			}
-//			else {
-//				driver.get(ConfigReader.getConfigData("url"));
-//			}
+			if(ConfigReader.getConfigData(url)==null) {
+				Log.info("No URL in Config File");
+			}
+			else {
+				driver.get(ConfigReader.getConfigData(url));
+			}
 //			driver.get("https://tutorialsninja.com/demo/");
 //			driver.get("https://the-internet.herokuapp.com/iframe");
-			driver.get("https://www.techlistic.com/p/demo-selenium-practice.html");
+//			driver.get("https://www.techlistic.com/p/demo-selenium-practice.html");
 			wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		}
 
 	}
 
-	@AfterSuite
-	public void teardown() {
-		if(driver!=null) {
-			Log.info("Execution Completed");
-			driver.quit();
-		}
-	}
+//	@AfterSuite
+//	public void teardown() {
+//		if(driver!=null) {
+//			Log.info("Execution Completed");
+//			driver.quit();
+//		}
+//	}
 }

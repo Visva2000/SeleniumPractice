@@ -4,13 +4,17 @@
 	</listeners>
 	<parameter name='os' value='windows' />
 	<parameter name='browser' value='chrome' />
+	<parameter name='urlDetails' value="url"/>
 	<test name="RegisterTest">
 		<classes>
-			<!--<class name="testclasses.HomePageTestClass" />
-			<class name="testclasses.RegisterPageTestClass" />-->
+			<class name="testclasses.HomePageTestClass" />
+			<class name="testclasses.RegisterPageTestClass" />
 			<!--<class name="testclasses.IFramePractiseTestClass"/> -->
-			<class name="testclasses.TablesPageTestClass"/> 
+			<!--<class name="testclasses.TablesPageTestClass"/> -->
 			<!-- <class name="testclasses.BrokenLinkTest"/>-->
+			<!-- <class name="testclasses.DatePickerTest" />-->
 		</classes>
 	</test>
 </suite>
+
+

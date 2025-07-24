@@ -3,18 +3,19 @@
 <suite name="Failed suite [OpenCart]">
   <parameter name="os" value="windows"/>
   <parameter name="browser" value="chrome"/>
+  <parameter name="urlDetails" value="url"/>
   <listeners>
     <listener class-name="utilities.ExtentReportListener"/>
   </listeners>
   <test thread-count="5" name="RegisterTest(failed)">
     <classes>
-      <class name="testclasses.TablesPageTestClass">
+      <class name="testclasses.RegisterPageTestClass">
         <methods>
-          <include name="teardown"/>
           <include name="setup"/>
-          <include name="TableTest"/>
+          <include name="TestFail"/>
+          <include name="TestSkip"/>
         </methods>
-      </class> <!-- testclasses.TablesPageTestClass -->
+      </class> <!-- testclasses.RegisterPageTestClass -->
     </classes>
   </test> <!-- RegisterTest(failed) -->
 </suite> <!-- Failed suite [OpenCart] -->
